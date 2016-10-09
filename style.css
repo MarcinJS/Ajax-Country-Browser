@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Pontano+Sans&subset=latin-ext';
+* {
+	box-sizing: border-box
+}
+body {
+	font-family: 'Pontano Sans', sans-serif;
+	background: #0c0f0a;
+}
+.head {
+	height: 100vh;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://static.pexels.com/photos/6998/city-cityscape-amarpreet-kaur.jpg') fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+.head h1 {
+	margin: 0;
+	padding: 150px 0 50px 0;
+	font-size: 50px;
+}
+input {
+    display: block;
+    height: 45px;
+    width: 250px;
+    margin: 30px auto;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+input:focus, button:focus{
+	outline: none;
+}
+.button {
+	color: #fff;
+  font-size: 36px;
+	-webkit-transition: 0.4s; i transition: 0.4s;
+}
+.button:hover {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+}
+.button:hover {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+}
+.button:active {
+	color: #fff;
+	text-decoration: none;
+}
+.country-box {
+	width: 700px;
+	margin: 30px auto;
+}
+.country-box h1 {
+	padding-left: 15px;
+}
+.cbox-1 {
+    margin: 10px 0 10px 35px;
+    font-size: 18px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #41ead4;
+}
+.cbox-2 {
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #41ead4;
+}
+#countries {
+	background-color: #0c0f0a;
+	color: #fff;
+}
